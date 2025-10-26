@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ana Monica Jean | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: #f2f2f2; /* dirty white color */
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    header a {
+      color: #fff; /* default white */
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    header a:hover {
+      color: #ffd700; /* yellow on hover */
+    }
+
+    nav {
+      background: #444;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.8rem 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #222;
+      margin-bottom: 1rem;
+      border-left: 5px solid #ffcc00;
+      padding-left: 10px;
+    }
+
+    .about p {
+      font-size: 1.1rem;
+      margin-top: 1rem;
+    }
+
+    .skills ul {
+      list-style: none;
+      margin-top: 1rem;
+    }
+
+    .skills li {
+      background: #ffcc00;
+      color: #000;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      margin: 0.5rem;
+      font-weight: 500;
+    }
+
+    .projects .project {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .projects h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      section {
+        padding: 2rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ana Monica Jean Fernandez</h1>
+    <p>📞 09358530123</p>
+    <p>✉️ <a href="mailto:jeansumaylofernandez@gmail.com">jeansumaylofernandez@gmail.com</a></p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m interested in programming but still learning the basics. I’m eager to explore and understand programming languages such as Python, C++, C#, C, and Java. I’m passionate about learning how things work behind software and want to grow into a skilled developer in the future.
+    </p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </section>
+
+  <section id="education" class="education">
+    <h2>Education</h2>
+    <p><strong>Cebu Eastern College</strong></p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Final Hordes</h3>
+      <p>A creative project showcasing gameplay and programming logic for a survival-themed environment.</p>
+    </div>
+
+    <div class="project">
+      <h3>Capstone Tracking System</h3>
+      <p>An academic system designed to help students and faculty monitor capstone project progress efficiently.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Ana Monica Jean Fernandez | Portfolio Website</p>
+  </footer>
+</body>
+</html>
