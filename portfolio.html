@@ -1,9 +1,11 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ana Monica Jean | Portfolio</title>
+
   <style>
     * {
       margin: 0;
@@ -102,6 +104,18 @@
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       padding: 1.5rem;
       margin-bottom: 1.5rem;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .projects .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .project-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
     }
 
     .projects h3 {
@@ -120,13 +134,16 @@
       header h1 {
         font-size: 2rem;
       }
+
       section {
         padding: 2rem 1rem;
       }
     }
   </style>
 </head>
+
 <body>
+
   <header>
     <h1>Ana Monica Jean Fernandez</h1>
     <p>📞 09358530123</p>
@@ -164,10 +181,12 @@
   <section id="projects" class="projects">
     <h2>Projects</h2>
 
-    <div class="project">
-      <h3>Final Hordes</h3>
-      <p>A creative project showcasing gameplay and programming logic for a survival-themed environment.</p>
-    </div>
+    <a href="https://www.roblox.com/games/123051230205082/" target="_blank" class="project-link">
+      <div class="project">
+        <h3>Final Hordes</h3>
+        <p>A creative project showcasing gameplay and programming logic for a survival-themed environment.</p>
+      </div>
+    </a>
 
     <div class="project">
       <h3>Capstone Tracking System</h3>
@@ -178,5 +197,7 @@
   <footer>
     <p>© 2025 Ana Monica Jean Fernandez | Portfolio Website</p>
   </footer>
+
 </body>
-</html>
+  </html>
+  
